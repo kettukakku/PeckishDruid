@@ -61,6 +61,10 @@ hr {
   border-style: double;
 }
 
+#recipe-container {
+  margin: 1%;
+}
+
 #navigation-links {
   font-size: 1.2em;
   display: inline-block;
@@ -71,4 +75,22 @@ hr {
 #navigation-links > li:hover {
   transform: scale(1.5, 1.5);
   transition: all 1s ease;
+}
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-recipe {
+  margin-top: -5%;
+  float: right;
+  max-width: 50%;
+}
+
+.img-recipe-long {
+  margin-top: -15%;
+  float: right;
+  clear: right;
+  max-width: 50%;
 }
